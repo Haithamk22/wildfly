@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tasks xmlns="urn:wildfly:wildfly-feature-pack-tasks:3.0">
+       <delete path="modules/system/layers/base/com/h2database/h2/main/h2-1.4.197.jar" recursive="true"/>
+</tasks>

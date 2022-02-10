@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="com.h2database.h2" xmlns="urn:jboss:module:1.8">
+
+    <resources>
+        <resource-root path="{com.h2database:h2}"/>
+    </resources>
+    <dependencies>
+        <module name="javax.api"/>
+        <module name="javax.transaction.api"/>
+        <module name="javax.servlet.api" optional="true"/>
+    </dependencies>
+</module>
