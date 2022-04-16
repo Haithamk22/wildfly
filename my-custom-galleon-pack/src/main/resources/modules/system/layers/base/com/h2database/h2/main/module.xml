@@ -2,7 +2,7 @@
 <module name="com.h2database.h2" xmlns="urn:jboss:module:1.8">
 
     <resources>
-        <resource-root path="{com.h2database:h2}"/>
+        <resource-root path="${com.h2database:h2}"/>
     </resources>
     <dependencies>
         <module name="javax.api"/>
